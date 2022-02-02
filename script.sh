@@ -1,10 +1,7 @@
 #!/bin/bash
 
-DATE = $(date)
+DATE=$(date)
+HOSTNAME=$(hostname)
 
 echo "Date is ${DATE}"
-
-
-HOSTNAME = $(hostname)
-
 echo "Hostname is ${HOSTNAME}"
